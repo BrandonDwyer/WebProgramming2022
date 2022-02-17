@@ -7,26 +7,29 @@
 }
 
 body {
-	background-color: dodgerblue;
+	background-color: #00171F;
+	color: white;
+	font-family: 'Montserrat', sans-serif;
 }
 
 .orderButton {
-    background-color: red;
+    background-color: #DB9D47;
     border: 2px;
     color: white;
     padding-left: 15px;
     text-align: center;
     text-decoration: none;
-    font-size: 16px;
     cursor: pointer;
     display: flex;
     justify-content: center;
     align-items: center;
+	margin-bottom: 20px;
 }        
 
 .bannerButtons {
     text-transform: uppercase;
-    background-color: #5294f7;
+    background-color: #DB9D47;
+	font-size: 16px;
     color: white;
     border: none;
     width: 200px;
@@ -42,7 +45,7 @@ body {
 
 #neon {
     font-family: 'Exo 2', sans-serif;
-    margin-top: 20px;
+    margin-top: 50px;
     height: 25px;
     width: 200px;
     margin-left: auto;
@@ -127,6 +130,11 @@ h1:focus {
 	height: 25vh;
 	border-radius: 5px 5px 0 0;
 	margin: 1px;
+	transition: border 5s;
+}
+
+#combos button:after {
+	border: solid 5px #DB9D47;
 }
 
 .card {
@@ -134,6 +142,8 @@ h1:focus {
 	transition: .4s;
 	border-radius: 5px;
 	width: 20vw;
+	background-color: #2274A5;
+	padding-left: 8px;
 }
 
 .card:hover {
