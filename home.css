@@ -41,6 +41,7 @@ body {
 
 .bannerButtons:hover {
     transform: scale(1.2);
+    background-color: #ffc370;
 }
 
 #neon {
