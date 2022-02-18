@@ -118,6 +118,7 @@ h1:focus {
 	flex: row;
 	justify-content: space-around;
 	width: 100vw;
+	margin-top: 10vh;
 }
 
 #combos {
@@ -152,7 +153,7 @@ h1:focus {
 	box-shadow: 0 8px 32px 0 #DB9D47;
 }
 
-#head-center {
+.head-center {
 	text-align: center;
 	margin-top: 15vh;
 }

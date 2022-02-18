@@ -14,83 +14,83 @@ body {
   font-family: 'Montserrat', sans-serif;
 }
 
-p:hover{
-    box-shadow:
+p:hover {
+  box-shadow:
     1px 1px #53a7ea,
     2px 2px #53a7ea,
     3px 3px #53a7ea;
-    -webkit-transform: translateX(-3px);
-    transform: translateX(-3px);
+  -webkit-transform: translateX(-3px);
+  transform: translateX(-3px);
 }
 
 
 
-h3:hover{
-    box-shadow:
+h3:hover {
+  box-shadow:
     1px 1px #53a7ea,
     2px 2px #53a7ea,
     3px 3px #53a7ea;
-    -webkit-transform: translateX(-3px);
-    transform: translateX(-3px);
+  -webkit-transform: translateX(-3px);
+  transform: translateX(-3px);
 }
 
 .orderButton {
-    background-color: #DB9D47;
-    border: 2px;
-    color: white;
-    padding-left: 15px;
-    text-align: center;
-    text-decoration: none;
-    cursor: pointer;
-    display: flex;
-    justify-content: center;
-    align-items: center;
+  background-color: #DB9D47;
+  border: 2px;
+  color: white;
+  padding-left: 15px;
+  text-align: center;
+  text-decoration: none;
+  cursor: pointer;
+  display: flex;
+  justify-content: center;
+  align-items: center;
   margin-bottom: 20px;
-}        
+}
 
 .bannerButtons {
-    text-transform: uppercase;
-    background-color: #DB9D47;
+  text-transform: uppercase;
+  background-color: #DB9D47;
   font-size: 16px;
-    color: white;
-    border: none;
-    width: 200px;
-    height: 50px;
-    border: 10px;
-    border-color: black;
-    cursor: pointer;
+  color: white;
+  border: none;
+  width: 200px;
+  height: 50px;
+  border: 10px;
+  border-color: black;
+  cursor: pointer;
 }
 
 .bannerButtons:hover {
-    transform: scale(1.2);
+  transform: scale(1.2);
 }
 
 
 #neon {
-    font-family: 'Exo 2', sans-serif;
-    margin-top: 15vh;
-    height: 300px;
-    width: 660px;
-    margin-left: auto;
-    margin-right: auto;
+  font-family: 'Exo 2', sans-serif;
+  margin-top: 15vh;
+  height: 300px;
+  width: 660px;
+  margin-left: auto;
+  margin-right: auto;
   margin-bottom: 15vh;
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-    align-items: center;
-    font-size: 50px;
-    font-weight: 200;
-    font-style: italic;
-    color: #fff;
-    padding: 4rem 6rem 5.5rem;
-    border: 0.4rem solid #fff;
-    border-radius: 2rem;
-    animation: flicker 3.5s infinite alternate;
-    transition: transform 2s;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  font-size: 50px;
+  font-weight: 200;
+  font-style: italic;
+  color: #fff;
+  padding: 4rem 6rem 5.5rem;
+  border: 0.4rem solid #fff;
+  border-radius: 2rem;
+  animation: flicker 3.5s infinite alternate;
+  transition: transform 2s;
 }
 
 #neon:hover {
-    transform: rotate(360deg);
+  transform: rotate(360deg);
 }
 
 h1::-moz-selection {
@@ -162,7 +162,8 @@ img {
 
 /* Style the counter cards */
 .card {
-  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2); /* this adds the "card" effect */
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  /* this adds the "card" effect */
   padding: 16px;
   text-align: center;
   background-color: #2274A5;
