@@ -1,6 +1,6 @@
 #pizza-container {
     position: relative;
-    margin-top: 20vh;
+    margin-top: 10vh;
     margin-left: 15vw;
 }
 
@@ -8,6 +8,7 @@
     position: relative;
     width: 40vw;
     height: 40vw;
+    margin-top: 4vh;
     margin-right: 15vw;
     float: right;
     animation-name: spin;

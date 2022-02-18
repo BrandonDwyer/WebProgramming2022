@@ -41,7 +41,6 @@ body {
 
 .bannerButtons:hover {
     transform: scale(1.2);
-    background-color: #ffc370;
 }
 
 #neon {
@@ -153,7 +152,7 @@ h1:focus {
 	box-shadow: 0 8px 32px 0 #DB9D47;
 }
 
-.head-center {
+#head-center {
 	text-align: center;
 	margin-top: 15vh;
 }
