@@ -62,9 +62,9 @@ h3:hover {
 }
 
 .bannerButtons:hover {
-  transform: scale(1.2);
+	transform: scale(1.2);
+	background-color: #2274A5;
 }
-
 
 #neon {
   font-family: 'Exo 2', sans-serif;
