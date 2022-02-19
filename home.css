@@ -72,21 +72,6 @@ body {
 	transform: rotate(360deg);
 }
 
-h1::-moz-selection {
-	background-color: var(--neon-border-color);
-	color: var(--neon-text-color);
-}
-
-h1::selection {
-	background-color: var(--neon-border-color);
-	color: var(--neon-text-color);
-}
-
-h1:focus {
-	outline: none;
-}
-
-/* Animate neon flicker */
 @keyframes flicker {
 
 	0%, 19%, 21%, 23%, 25%, 54%, 56%, 100% {
@@ -141,18 +126,16 @@ h1:focus {
 }
 
 .comboGrow:hover {
-	-webkit-transform: scale(1.3);
-	-ms-transform: scale(1.3);
 	transform: scale(1.3);
 }
 
 .card {
 	box-shadow: 0 4px 8px 0 #DB9D47;
-	transition: 0.3s;
 	border-radius: 5px;
 	width: 20vw;
 	background-color: #2274A5;
 	padding-left: 8px;
+	transition: box-shadow 0.5s;
 }
 
 .card:hover {
