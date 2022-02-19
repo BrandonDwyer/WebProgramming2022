@@ -1,0 +1,12 @@
+.table {
+	border: solid;
+	border-color: yellow;
+}
+
+table, th, td {     
+	border: 1px solid yellow;
+} 
+
+table {
+	width: 80%
+}
