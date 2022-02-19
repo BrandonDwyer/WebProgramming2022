@@ -61,6 +61,7 @@ h3:hover {
   border: 10px;
   border-color: black;
   cursor: pointer;
+  transition: transform 1s;
 }
 
 .bannerButtons:hover {

@@ -37,6 +37,7 @@ body {
 	height: 50px;
 	border: 10px;
 	cursor: pointer;
+	transition: transform 1s;
 }
 
 .bannerButtons:hover {
