@@ -17,22 +17,20 @@ body {
 }
 
 p:hover {
+  transition: box-shadow 1s, transform 2s;
   box-shadow:
     1px 1px #53a7ea,
     2px 2px #53a7ea,
     3px 3px #53a7ea;
-  -webkit-transform: translateX(-3px);
   transform: translateX(-3px);
 }
 
-
-
 h3:hover {
+  transition: box-shadow 1s, transform 2s;
   box-shadow:
     1px 1px #53a7ea,
     2px 2px #53a7ea,
     3px 3px #53a7ea;
-  -webkit-transform: translateX(-3px);
   transform: translateX(-3px);
 }
 
@@ -65,8 +63,8 @@ h3:hover {
 }
 
 .bannerButtons:hover {
-	transform: scale(1.2);
-	background-color: #2274A5;
+  transform: scale(1.2);
+  background-color: #2274A5;
 }
 
 #neon {
@@ -147,7 +145,6 @@ h1:focus {
   padding: 0 10px;
 }
 
-
 img {
   width: 250px;
   height: 250px;
@@ -175,13 +172,12 @@ img {
   transition: 0.3s;
   border-radius: 5px;
   padding-left: 8px;
-
+  transition: box-shadow 0.5s;
 }
 
 .card:hover {
   box-shadow: 0 8px 32px 0 #DB9D47;
 }
-
 
 /* Responsive columns - one column layout (vertical) on small screens */
 @media screen and (max-width: 600px) {
