@@ -17,13 +17,8 @@
 }
 
 @keyframes spin {
-    from {
-        transform: rotate(0deg);
-    }
-
-    to {
-        transform: rotate(360deg);
-    }
+    from {transform: rotate(0deg);}
+    to {transform: rotate(360deg);}
 }
 
     input.top:not(:checked)~#img-roni, #img-saus, #img-bacon,
@@ -34,41 +29,15 @@
     }
 
     @keyframes bounce {
-        0% {
-            transform: translateY(-200%);
-        }
-
-        5% {
-            transform: translateY(-200%);
-        }
-
-        10% {
-            transform: translateY(0%);
-        }
-
-        25% {
-            transform: translateY(-20%);
-        }
-
-        40% {
-            transform: translateY(0%);
-        }
-
-        50% {
-            transform: translateY(-5%);
-        }
-
-        60% {
-            transform: translateY(0%);
-        }
-
-        80% {
-            transform: translateY(0%);
-        }
-
-        100% {
-            transform: translateY(0%);
-        }
+        0% {transform: translateY(-200%);}
+        5% {transform: translateY(-200%);}
+        10% {transform: translateY(0%);}
+        25% {transform: translateY(-20%);}
+        40% {transform: translateY(0%);}
+        50% {transform: translateY(-5%);}
+        60% {transform: translateY(0%);}
+        80% {transform: translateY(0%);}
+        100% {transform: translateY(0%);}
     }
     #input-roni:checked~#img-roni {
         width: 42vw;
@@ -92,7 +61,6 @@
         animation-name: bounce;
         animation-duration: 4s;
         animation-timing-function: linear;
-
     }
 
     #input-saus:checked~#img-saus {
@@ -105,7 +73,6 @@
         animation-name: bounce;
         animation-duration: 4s;
         animation-timing-function: linear;
-
     }
 
     #input-pine:checked~#img-pine {
