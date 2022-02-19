@@ -95,20 +95,6 @@ h3:hover {
   transform: rotate(360deg);
 }
 
-h1::-moz-selection {
-  background-color: var(--neon-border-color);
-  color: var(--neon-text-color);
-}
-
-h1::selection {
-  background-color: var(--neon-border-color);
-  color: var(--neon-text-color);
-}
-
-h1:focus {
-  outline: none;
-}
-
 /* Animate neon flicker */
 @keyframes flicker {
 

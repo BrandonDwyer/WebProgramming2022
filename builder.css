@@ -21,24 +21,14 @@
     to {transform: rotate(360deg);}
 }
 
-    input.top:not(:checked)~#img-roni, #img-saus, #img-bacon,
-    #img-onion, #img-pine, #img-shroom, #img-pepper, #img-tomatoes,
-    #img-steak, #img-meatballs, #img-chicken, #img-jalapeno, #img-spinach,
-    #img-anchovies {
+    input.top:not(:checked)~#img-roni, #img-saus, 
+    #img-bacon, #img-onion, #img-pine, #img-shroom,
+    #img-pepper, #img-tomatoes, #img-steak, 
+    #img-meatballs, #img-chicken, #img-jalapeno, 
+    #img-spinach, #img-anchovies {
         display: none;
     }
 
-    @keyframes bounce {
-        0% {transform: translateY(-200%);}
-        5% {transform: translateY(-200%);}
-        10% {transform: translateY(0%);}
-        25% {transform: translateY(-20%);}
-        40% {transform: translateY(0%);}
-        50% {transform: translateY(-5%);}
-        60% {transform: translateY(0%);}
-        80% {transform: translateY(0%);}
-        100% {transform: translateY(0%);}
-    }
     #input-roni:checked~#img-roni {
         width: 42vw;
         height: 42vw;
@@ -205,4 +195,16 @@
         animation-name: bounce;
         animation-duration: 4s;
         animation-timing-function: linear;
+    }
+
+    @keyframes bounce {
+        0% {transform: translateY(-200%);}
+        5% {transform: translateY(-200%);}
+        10% {transform: translateY(0%);}
+        25% {transform: translateY(-20%);}
+        40% {transform: translateY(0%);}
+        50% {transform: translateY(-5%);}
+        60% {transform: translateY(0%);}
+        80% {transform: translateY(0%);}
+        100% {transform: translateY(0%);}
     }
